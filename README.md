@@ -1,3 +1,3 @@
 # Food-Court-Ordeering
-Food Court ordering app
+Food Court ordering web
 Coding Club

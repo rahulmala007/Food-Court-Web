@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
+<<<<<<< HEAD
     'app1',
+=======
+>>>>>>> 1300a0883187fc17cb3820d17245259c7535f431
 
 ]
 
@@ -103,6 +106,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1300a0883187fc17cb3820d17245259c7535f431
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -121,6 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 AUTH_USER_MODEL= 'users.CustomUser'
 STATIC_URL = '/static/'
+<<<<<<< HEAD
 LOGIN_REDIRECT_URL='home'
 LOGOUT_REDIRECT_URL='home'
 STATICFILES_DIRS=[
@@ -129,3 +137,11 @@ STATICFILES_DIRS=[
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+=======
+STATICFILES_DIRS=[
+    os.path.join(BASE_DIR,"static"),
+]
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+LOGIN_REDIRECT_URL='home'
+LOGOUT_REDIRECT_URL='home'
+>>>>>>> 1300a0883187fc17cb3820d17245259c7535f431
